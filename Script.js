@@ -169,7 +169,7 @@ window.onload = function () {
 			//ツイートＡＰＩに送信
 			//結果ツイート時にURLを貼るため、このゲームのURLをここに記入してURLがツイート画面に反映されるようにエンコードする
 			const url = encodeURI("https://mmemmemme.github.io/TouchGame/");
-			window.open("http://twitter.com/intent/tweet?text=頑張って" + point + "ねっこを撫でたった!!!!!!!&hashtags=ahoge&url=" + url); //ハッシュタグにahogeタグ付くようにした。
+			window.open("http://twitter.com/intent/tweet?text=頑張って" + point + "ねっこを撫でたった!!!!!!!&hashtags=プログラミング初心者&url=" + url); //ハッシュタグにahogeタグ付くようにした。
 		};
 
 	};
